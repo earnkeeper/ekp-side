@@ -162,18 +162,6 @@
       ],
       "value": ""
     }, {
-      "id": "9a781410-df25-4a16-8140-0bfef86b7de4",
-      "comment": "",
-      "command": "click",
-      "target": "css=.nav-item:nth-child(10) .menu-item",
-      "targets": [
-        ["css=.nav-item:nth-child(10) .menu-item", "css:finder"],
-        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[9]/a/span", "xpath:idRelative"],
-        ["xpath=//li[9]/a/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Fusion Costs')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
       "id": "1dee875d-8bc3-47f0-bbb3-10600fb95659",
       "comment": "",
       "command": "click",
