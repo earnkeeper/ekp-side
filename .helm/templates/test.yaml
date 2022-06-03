@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: sync
+spec:
+  schedule: "0 * * * *"
+  concurrencyPolicy: Forbid
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            job: test
+        spec:
+          restartPolicy: Never
+          containers:
+            - name: node
+              image: "{{ .Values.werf.image.side }}"
+              workingDir: /app

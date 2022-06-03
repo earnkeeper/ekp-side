@@ -1,0 +1,12 @@
+{
+  "name": "ekp-side",
+  "version": "0.1.0",
+  "scripts": {
+    "start:headless": "selenium-side-runner -c \"goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome\" master.side",
+    "start": "selenium-side-runner master.side"
+  },
+  "devDependencies": {
+    "chromedriver": "^101.0.0",
+    "selenium-side-runner": "^3.17.0"
+  }
+}

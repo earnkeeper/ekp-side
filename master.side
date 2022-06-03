@@ -1,0 +1,520 @@
+{
+  "id": "b9b14c4a-43f5-4332-a2ee-e8e09c87ad74",
+  "version": "2.0",
+  "name": "New Test 30/05",
+  "url": "https://earnkeeper.io/home",
+  "tests": [{
+    "id": "15f53cd8-acd5-4295-bf59-b174a32d3cf8",
+    "name": "30/05/22",
+    "commands": [{
+      "id": "68de509a-0aa8-4505-881d-0d4eb59d8f60",
+      "comment": "",
+      "command": "open",
+      "target": "https://earnkeeper.io/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fc11441-a993-40af-aa70-b526448212ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1477x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e8bf401-604b-4eb5-bc68-a74c1b67a10d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.font-weight-normal",
+      "targets": [
+        ["css=.font-weight-normal", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'👉   Browse our game tools here   👈')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd219701-dc61-4eb4-8864-4abe2959c751",
+      "comment": "",
+      "command": "click",
+      "target": "id=plugins-table-t-0-0-0-1",
+      "targets": [
+        ["id=plugins-table-t-0-0-0-1", "id"],
+        ["linkText=Metabomb", "linkText"],
+        ["css=#plugins-table-t-0-0-0-1", "css:finder"],
+        ["xpath=//a[contains(text(),'Metabomb')]", "xpath:link"],
+        ["xpath=//a[@id='plugins-table-t-0-0-0-1']", "xpath:attributes"],
+        ["xpath=//div[@id='plugins-table-t-0-0']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/metabomb/heroes')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Metabomb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "228aafb3-8c4b-4e6e-8674-753d7e4004a2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,105.3968276977539)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "439d7b08-22e4-4738-b552-59d07b28a7f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,176.50794982910156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da200e8e-755f-41b5-bba2-5c5242d2000c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=History",
+      "targets": [
+        ["linkText=History", "linkText"],
+        ["css=.mr-2:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'History')]", "xpath:link"],
+        ["xpath=//ul[@id='root-0-2']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7dd565d-d0c3-4c39-881f-53092845844a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=History",
+      "targets": [
+        ["linkText=History", "linkText"],
+        ["css=.mr-2 > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'History')]", "xpath:link"],
+        ["xpath=//ul[@id='root-0-2']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1352c8fe-8f65-4a8e-829a-0ad03148901f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=History",
+      "targets": [
+        ["linkText=History", "linkText"],
+        ["css=.mr-2 > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'History')]", "xpath:link"],
+        ["xpath=//ul[@id='root-0-2']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f286c561-88db-4e37-a5af-ca8bd1c33a5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(6) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(6) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a575b7ca-0f79-47ca-ba21-ae83df92fa6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(7) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(7) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hero Market')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5bb2322-7f36-4279-8f3b-e56f6881e814",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(8) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(8) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Box Market')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93648270-ef69-4f24-8d1a-97dbcb916d15",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,147.93650817871094)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5ff99fc-2039-4e25-9c26-cd0cc1264eb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(9) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(9) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inventory')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a781410-df25-4a16-8140-0bfef86b7de4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(10) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(10) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fusion Costs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dee875d-8bc3-47f0-bbb3-10600fb95659",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(3) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Deep Dives')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9707748b-ca34-4b7a-87cb-9469b670b0d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=plugins-table-t-1-0-0-1",
+      "targets": [
+        ["id=plugins-table-t-1-0-0-1", "id"],
+        ["css=#plugins-table-t-1-0-0-1", "css:finder"],
+        ["xpath=(//a[contains(text(),'Metabomb')])[2]", "xpath:link"],
+        ["xpath=//a[@id='plugins-table-t-1-0-0-1']", "xpath:attributes"],
+        ["xpath=//div[@id='plugins-table-t-1-0']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/metabomb/fusioncosts')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4d79d74-423c-4175-846a-271ef2b5c987",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(3) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Deep Dives')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4842f64d-a679-4b6f-9698-a3a212f15af9",
+      "comment": "",
+      "command": "click",
+      "target": "id=plugins-table-t-2-0-0-1",
+      "targets": [
+        ["id=plugins-table-t-2-0-0-1", "id"],
+        ["linkText=Splinterlands", "linkText"],
+        ["css=#plugins-table-t-2-0-0-1", "css:finder"],
+        ["xpath=//a[contains(text(),'Splinterlands')]", "xpath:link"],
+        ["xpath=//a[@id='plugins-table-t-2-0-0-1']", "xpath:attributes"],
+        ["xpath=//div[@id='plugins-table-t-2-0']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/splinterlands/playercards')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Splinterlands')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f44ae14a-4169-4395-b9b5-32733cd5beeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(6) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(6) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Battle History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a7a633-a49b-4179-8925-d0826d3adba3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(7) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(7) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Battle Planner')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "886a5c2b-7776-48fb-bcb0-accc2a2f2367",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(8) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(8) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Card Browser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c11a86f-25bc-489b-9480-3e8056e21479",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(9) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(9) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Db Stats')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e065d4dd-b3ae-4dd5-94f5-4eead73c93e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(10) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(10) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Leaderboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c50620f9-61bc-43f7-b8b0-3a48b54681d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(11) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(11) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[10]/a/span", "xpath:idRelative"],
+        ["xpath=//li[10]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Marketplace')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98da70a4-8f4f-40ec-ab82-9e94ab479c39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(12) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(12) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[11]/a/span", "xpath:idRelative"],
+        ["xpath=//li[11]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Player Cards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03ba104a-dd84-4494-9b44-250fae8da201",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(3) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Deep Dives')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91e56b36-ff13-4c1e-92fc-d18ef4b2a082",
+      "comment": "",
+      "command": "click",
+      "target": "id=plugins-table-t-3-0-0-1",
+      "targets": [
+        ["id=plugins-table-t-3-0-0-1", "id"],
+        ["css=#plugins-table-t-3-0-0-1", "css:finder"],
+        ["xpath=(//a[contains(text(),'Splinterlands')])[2]", "xpath:link"],
+        ["xpath=//a[@id='plugins-table-t-3-0-0-1']", "xpath:attributes"],
+        ["xpath=//div[@id='plugins-table-t-3-0']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/splinterlands/marketplace')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd19fda0-cda2-4df7-adfc-4a8400aff2db",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.app-content",
+      "targets": [
+        ["css=.app-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc2f52ae-0f78-459b-8d5b-5ba5f7a05f41",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#cell-name-183\\|1\\|4 > div",
+      "targets": [
+        ["css=#cell-name-183\\|1\\|4 > div", "css:finder"],
+        ["xpath=//div[@id='cell-name-183|1|4']/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed8657b7-10af-4bd0-826a-bf71a2c86263",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(3) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Deep Dives')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d8a33d4-d4ba-47c3-8e14-65b6304ee0b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=plugins-table-t-4-0-0-1",
+      "targets": [
+        ["id=plugins-table-t-4-0-0-1", "id"],
+        ["css=#plugins-table-t-4-0-0-1", "css:finder"],
+        ["xpath=(//a[contains(text(),'Splinterlands')])[3]", "xpath:link"],
+        ["xpath=//a[@id='plugins-table-t-4-0-0-1']", "xpath:attributes"],
+        ["xpath=//div[@id='plugins-table-t-4-0']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/splinterlands/planner')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01d411a0-eedd-4a06-b32e-b492968002ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(3) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Deep Dives')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc8c143a-2946-4be4-bb80-c53ba13da32d",
+      "comment": "",
+      "command": "click",
+      "target": "id=plugins-table-t-5-0-0-1",
+      "targets": [
+        ["id=plugins-table-t-5-0-0-1", "id"],
+        ["css=#plugins-table-t-5-0-0-1", "css:finder"],
+        ["xpath=(//a[contains(text(),'Splinterlands')])[4]", "xpath:link"],
+        ["xpath=//a[@id='plugins-table-t-5-0-0-1']", "xpath:attributes"],
+        ["xpath=//div[@id='plugins-table-t-5-0']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/splinterlands/cardbrowser')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6f65548-734f-4837-b067-35d28be091af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(3) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Deep Dives')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cd64a6a-5006-4177-934f-0d6f11a5146f",
+      "comment": "",
+      "command": "click",
+      "target": "id=plugins-table-t-6-0-0-1",
+      "targets": [
+        ["id=plugins-table-t-6-0-0-1", "id"],
+        ["linkText=Thetan Arena", "linkText"],
+        ["css=#plugins-table-t-6-0-0-1", "css:finder"],
+        ["xpath=//a[contains(text(),'Thetan Arena')]", "xpath:link"],
+        ["xpath=//a[@id='plugins-table-t-6-0-0-1']", "xpath:attributes"],
+        ["xpath=//div[@id='plugins-table-t-6-0']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/thetan-arena/market-buy')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thetan Arena')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cfd6207-1cef-403f-a1fd-ebd35ba916ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(6) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(6) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Boxes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9079898f-2212-4cda-a18f-05faad7ecdd3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-item:nth-child(7) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(7) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Buy Heroes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd18884-98f4-477a-ae72-9a46d5ab4ee7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(7) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(7) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Buy Heroes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5481d40-0346-4712-8b35-7bdcb5f22d1e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active .menu-item",
+      "targets": [
+        ["css=.active .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Buy Heroes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd1a7250-2f55-40ca-8657-79014710b279",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(8) .menu-item",
+      "targets": [
+        ["css=.nav-item:nth-child(8) .menu-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Rent Heroes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "58f357c9-cf46-4df5-b5fc-339f6b8bc0d7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["15f53cd8-acd5-4295-bf59-b174a32d3cf8"]
+  }],
+  "urls": ["https://earnkeeper.io/home"],
+  "plugins": []
+}
