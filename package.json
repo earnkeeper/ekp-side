@@ -2,8 +2,8 @@
   "name": "ekp-side",
   "version": "0.1.0",
   "scripts": {
-    "start:prod": "selenium-side-runner --server http://app-service:4444/wd/hub -c \"browserName=chrome\" master.side",
-    "start": "selenium-side-runner --server http://localhost:4444/wd/hub -c \"browserName=chrome\" master.side"
+    "start:prod": "selenium-side-runner --server http://app-service:4444/wd/hub -c \"browserName=chrome\" master.side && echo \"success\" || echo \"failed\"",
+    "start": "selenium-side-runner master.side"
   },
   "devDependencies": {
     "chromedriver": "^101.0.0",
