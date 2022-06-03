@@ -9,4 +9,4 @@ RUN npm ci
 
 COPY ./master.side ./
 
-CMD ["npm","run","start:headless"]
+CMD ["npm","run","start:prod"]

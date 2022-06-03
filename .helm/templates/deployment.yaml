@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-deploy
+spec:
+  selector:
+    matchLabels:
+      app: app
+  revisionHistoryLimit: 3
+  strategy:
+    type: RollingUpdate
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      volumes:
+      - name: dshm
+        emptyDir:
+          medium: Memory
+      containers:
+        - name: nodejs
+          image: 'selenium/standalone-chrome:4.2.1-20220531'
+          volumeMounts:
+            - mountPath: /dev/shm
+              name: dshm
+          ports:
+            - containerPort: 4444
+              protocol: TCP
